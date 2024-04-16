@@ -49,7 +49,7 @@ app.post('/atualizar-status', (req, res) => {
   } else {
     // Retorna uma resposta de sucesso
     res.json({
-      mensagem: `Atualização de status '${novoStatus}' enviada com sucesso para o pedido '${pedidoId}'`,
+      mensagem: `Atualização de status '${status[novoStatus]}' enviada com sucesso para o pedido '${pedidoId}'`,
     });
   }
 });
