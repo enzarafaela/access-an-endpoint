@@ -2,9 +2,6 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 
-// Middleware para fazer o parsing do corpo das requisições como JSON
-app.use(bodyParser.json());
-
 // Simulação de um banco de dados de pedidos
 const Aceito = 'Aceito';
 const Preparando = 'Preparando';
